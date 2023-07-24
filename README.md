@@ -10,9 +10,14 @@ Windroid 11 is a Windows 11 equivalent for Android.
 
 ## Easy install
 
-Download [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) and [Termux:Widget](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk) and install (go in the Android settings and enable install of unknown sources.
+Download [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) and [Termux:Widget](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk) and install (go in the Android settings and enable install of unknown sources)
+
+Open Termux and copy/paste the follow code, press [Enter] (in your keyboard) and then accept the storage permission:
+```termux-setup-storage
+pkg update
+pkg upgrade
+pkg in proot```
 
 
-```
 
 Windroid 11 is based on the Linux kernel that is preinstalled on every Android.
