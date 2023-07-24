@@ -3,6 +3,7 @@
 Windroid 11 is a Windows 11 equivalent for Android.
 
 
+
 ## Goals of Windroid 11
 
 ##### No Root access necessary.
@@ -10,11 +11,12 @@ Windroid 11 is a Windows 11 equivalent for Android.
 ##### Steam is pre-installed
 
 
+
 ## Easy install
 
 Download [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) and [Termux:Widget](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk) and install (go in the Android settings and enable install of unknown sources)
 
-Open Termux and copy/paste the follow code, press [Enter] (in your keyboard) and then accept the storage permission:
+Open Termux and copy/paste the follow code:
 ```
 termux-setup-storage
 pkg update -y
@@ -23,7 +25,7 @@ pkg i proot p7zip pulseaudio -y
 # Download link von OS
 
 ```
-
+press [Enter] (in your keyboard) and then accept the storage permission.
 
 
 Windroid 11 is based on the Linux kernel that is preinstalled on every Android.
