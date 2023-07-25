@@ -21,8 +21,9 @@ Open Termux and copy/paste the follow code:
 termux-setup-storage
 pkg update -y
 pkg upgrade -y
-pkg i proot p7zip pulseaudio -y
-# Download link von OS
+pkg i proot p7zip pulseaudio wget -y
+wget https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-9eb11e347b117eaf4dec/Win11.7z.001 # link muss aktualisiert werden
+
 
 ```
 press [Enter] (in your keyboard) and then accept the storage permission.
