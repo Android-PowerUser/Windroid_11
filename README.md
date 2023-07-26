@@ -22,7 +22,7 @@ termux-setup-storage
 pkg update -y
 pkg upgrade -y
 pkg i proot p7zip pulseaudio wget -y
-wget https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-9eb11e347b117eaf4dec/Win11.7z.001 # link muss aktualisiert werden
+wget  https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-eac42edb224f46b7f839/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-eac42edb224f46b7f839/Win11.7z.003 # link muss aktualisiert werden
 
 
 ```
