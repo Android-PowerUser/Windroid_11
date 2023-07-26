@@ -14,7 +14,7 @@ Windroid 11 is a Windows 11 equivalent for Android.
 
 ## Needed to install
 
-Min. 12-16GB internal storage depending whether you have an SD card and your choose in the code (see below).
+Min. 13-17 GB internal storage depending whether you have an SD card and your choose in the code (see below).
 
 ARM Prozessor 64-bit (probably max. 6 year old low budget device)
 
