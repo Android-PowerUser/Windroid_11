@@ -15,6 +15,11 @@ Windroid 11 is a Windows 11 equivalent for Android.
 
 ## Easy install
 
+#### You need
+
+Min. 12-16GB internal storage depending whether you have an SD card and your choose in the code (see below).
+
+
 Download
 [Termux.apk](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) and 
 [Termux:Widget.apk](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk)
