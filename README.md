@@ -18,7 +18,7 @@ Windroid 11 is a Windows 11 equivalent for Android.
 Download
 [Termux.apk](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) and 
 [Termux:Widget.apk](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk)
-and [VNC Viewer v3.7.1.44443.apk]()
+and [VNC Viewer v3.8.0.48261.apk]()
 and install (go in the Android settings and enable install of unknown sources)
 
 Open Termux and copy/paste the follow code:
@@ -31,10 +31,11 @@ pkg i proot p7zip pulseaudio wget -y
 # cd ./storage/external-1/
 cd ./sdcard/Download/
 wget https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-eac42edb224f46b7f839/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-eac42edb224f46b7f839/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-eac42edb224f46b7f839/Win11.7z.003 # link muss beim veröffentlichen aktualisiert werden.
-cd
+7z x ./Win11.7z.001 # 002,003 is automatically recognized in the same directory.
+
 
 ```
 press [Enter] (in your keyboard) and then accept the storage permission.
 
-
+## Documentation
 Windroid 11 is based on the Linux kernel that is preinstalled on every Android.
