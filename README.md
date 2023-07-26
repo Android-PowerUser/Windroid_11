@@ -12,7 +12,7 @@ Windroid 11 is a Windows 11 equivalent for Android.
 ##### Usual handling
 
 
-## need to install
+## Needed to install
 
 Min. 12-16GB internal storage depending whether you have an SD card and your choose in the code (see below).
 
@@ -53,5 +53,5 @@ Complete.
 You are viewing Windroid 11!
 
 ## Documentation
-Windroid 11 is in the beta phase .
-It is based on the Linux kernel that is preinstalled on every Android.
+Windroid 11 is yet in the beta phase.
+It is based on the Linux kernel that is preinstalled on every Androidsystem.
