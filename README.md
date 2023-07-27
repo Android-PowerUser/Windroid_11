@@ -58,7 +58,7 @@ content IS NOT going to be deleted.
 Do you want to continue? (y/n)
 ```
 tap n and press Enter.
-Otherwise accept the storage permission. If you know you don't have Android 12+ or disabled Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux until Termux has completed the process. In the VNC Viewer, click the + and enter :1 in the first line.  Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors. Go back to termux. Wait for the installation to finish and go back to VNC Viewer and press "Connect".  Disable "warn me every time" then press "Ok", enter the password 123456 and confirm.
+Otherwise accept the storage permission. If you know you don't have Android 12+ or disabled Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process. In the VNC Viewer, click the + and enter :1 in the first line.  Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors. Go back to termux. Wait for the installation to finish and go back to VNC Viewer and press "Connect".  Disable "warn me every time" then press "Ok", enter the password 123456 and confirm.
 Complete.
 You are viewing Windroid 11!
 
