@@ -50,7 +50,7 @@ chmod +x ./Win11
 ```
 ###### Pro tipp: wenn du bereits speicher zugriff bei termux hattest kommt: It appears that directory '~/storage' already exists. This script is going to rebuild its structure from scratch, wiping all dangling files. The actual storage content IS NOT going to be deleted. Do you want to continue? (y/n) press n and Enter! sonst hast du wahrscheinlich kein zugriff mehr auf den Speicher.
 
-Then press [Enter] (in your keyboard) and when you see
+Then press [Enter] (in your keyboard) and if you see:
 ```
 It appears that directory '~/storage' already exists.
 This script is going to rebuild its structure from
