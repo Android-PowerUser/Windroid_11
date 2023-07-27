@@ -68,5 +68,14 @@ If you no longer have access to your storage due to duplicate termux-setup-stora
 rm -rf ./storage/
 termux-setup-storage
 ```
+
+If this happened when you open Steam, try
+```
+wineserver crashed, please enable coredumps (ulimit -c unlimited) and restart.
+```
+Try
+```
+apt install box64-android=0.2.3+20230603.4f1cefe-1
+```
 Windroid 11 is yet in the beta phase.
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
