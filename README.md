@@ -69,7 +69,7 @@ rm -rf ./storage/
 termux-setup-storage
 ```
 
-If this happened when you open Steam, try
+If this happened when you open Steam:
 ```
 wineserver crashed, please enable coredumps (ulimit -c unlimited) and restart.
 ```
