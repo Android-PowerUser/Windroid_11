@@ -48,8 +48,6 @@ chmod +x ./Win11
 ./Win11
 
 ```
-###### Pro tipp: wenn du bereits speicher zugriff bei termux hattest kommt: It appears that directory '~/storage' already exists. This script is going to rebuild its structure from scratch, wiping all dangling files. The actual storage content IS NOT going to be deleted. Do you want to continue? (y/n) press n and Enter! sonst hast du wahrscheinlich kein zugriff mehr auf den Speicher.
-
 Then press [Enter] (in your keyboard) and if you see:
 ```
 It appears that directory '~/storage' already exists.
@@ -64,7 +62,7 @@ Complete.
 You are viewing Windroid 11!
 
 ## Note
-Wenn du durch doppelten termux-setup-storage keinen Zugriff auf deinen Speicher mehr hast versuche die Berechtigung von Termux zu löschen und danach(!):
+If you no longer have access to your storage due to duplicate termux-setup-storage, try deleting the permissions on the Termux storage and then(!):
 ```
 rm -rf ./storage/
 termux-setup-storage
