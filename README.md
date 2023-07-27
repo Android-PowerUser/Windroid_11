@@ -48,12 +48,17 @@ chmod +x ./Win11
 ./Win11
 
 ```
-###### Pro tipp: wenn du bereits speicher zugriff bei termux hattest kommt: It appears that directory '~/storage' already exists. This script is going to rebuild its structure from scratch, wiping all dangling files. The actual storage content IS NOT going to be deleted. Do you want to continue? (y/n) press n and Enter!
+###### Pro tipp: wenn du bereits speicher zugriff bei termux hattest kommt: It appears that directory '~/storage' already exists. This script is going to rebuild its structure from scratch, wiping all dangling files. The actual storage content IS NOT going to be deleted. Do you want to continue? (y/n) press n and Enter! sonst hast du wahrscheinlich kein zugriff mehr auf den Speicher.
 
 Then press [Enter] (in your keyboard) and then accept the storage permission. If you know you don't have Android 12 you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux until Termux has completed the process. In the VNC Viewer, click the + and enter :1 in the first line.  Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors. Go back to termux. Wait for the installation to finish and go back to VNC Viewer and press "Connect".  Disable "warn me every time" then press "Ok", enter the password 123456 and confirm.
 Complete.
 You are viewing Windroid 11!
 
-## Documentation
+## Note
+Wenn du durch doppelten termux-setup-storage keinen Zugriff auf deinen Speicher mehr hast versuche die Berechtigung von Termux zu löschen und danach(!):
+```
+rm -rf ./storage/
+termux-setup-storage
+```
 Windroid 11 is yet in the beta phase.
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
