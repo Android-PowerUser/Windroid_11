@@ -69,11 +69,11 @@ rm -rf ./storage/
 termux-setup-storage
 ```
 
-If this happened when you open Steam:
+If
 ```
 wineserver crashed, please enable coredumps (ulimit -c unlimited) and restart.
 ```
-Try
+happened when you open Steam, try:
 ```
 apt install box64-android=0.2.3+20230603.4f1cefe-1
 ```
