@@ -62,7 +62,7 @@ Otherwise accept the storage permission. If you know you don't have Android 12+ 
 Complete.
 You are viewing Windroid 11!
 
-## Note
+## If you get an error
 If you no longer have access to your storage due to duplicate termux-setup-storage, try deleting the permissions on the Termux storage and then(!):
 ```
 rm -rf ./storage/
