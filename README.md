@@ -8,7 +8,7 @@ Windroid 11 is a Windows 11 equivalent for Android.
 
 ##### No Emulation
 ##### No Root access necessary.
-##### Windows and Linux Applications works
+##### Windows and Linux Applications work
 ##### Steam is pre-installed
 ##### Usual handling
 
