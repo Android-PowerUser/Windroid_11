@@ -26,7 +26,7 @@ Android 7+ (more reports necessary)
 Download
 [Termux.apk](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) and 
 [Termux:Widget.apk](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk)
-and [VNC Viewer v3.8.0.48261.apk](https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=4163203&key=9219eb9fc7670432b986e98dd8747b0cbebe7155)
+and [VNC Viewer v3.8.0.48261.apk](https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-3d8afee65340ab832c3e/VNC.Viewer_3.8.0.48261-arm64.apk)
 and install (go in the Android settings and enable install of unknown sources)
 
 Open Termux and copy/paste the follow code:
