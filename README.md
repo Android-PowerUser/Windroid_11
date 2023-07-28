@@ -78,5 +78,8 @@ happened when you open Steam, try:
 ```
 apt install box64-android=0.2.3+20230603.4f1cefe-1
 ```
+## Documentation
+##### A complete documentation is coming soon.
 Windroid 11 is yet in the beta phase.
+
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
