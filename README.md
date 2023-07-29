@@ -66,7 +66,6 @@ Press N and Enter every times.
 
 Now, if you know you don't have Android 12+ or disabled Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process. In the VNC Viewer, click the + and enter :1 in the first line.  Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors. Go back to termux, if not already complete. The Win11.7z is divided into 3 parts. Therefore, do not be irritated if several larger files are downloaded.<br>
 <br>
-<br>
 After the completed installation go back to VNC Viewer and press "Connect".  Disable "warn me every time" then press "Ok", enter the password 123456 and confirm.
 Complete.
 You are viewing Windroid 11!
