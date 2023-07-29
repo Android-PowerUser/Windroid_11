@@ -105,6 +105,7 @@ Logically, no browser is installed in Windroid 11 because you already have one o
 
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
 
+A [group](https://t.me/Windroid_11) for Windroid 11 developers only.
 
 #### You can [fund](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE) the Windroid 11 project.
 Those who [donate](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4C5837267N8919331MTCOQWA) at least 5 USD will be listed as a backer below.
