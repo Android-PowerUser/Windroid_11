@@ -81,11 +81,11 @@ in termux Windroid 11 .
 ## Documentation
 ##### A complete documentation is coming soon.
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
-Go fund me free of charge https://paypal.me/MATTEXitLoesungen?country.x=DE&locale.x=de_DE!
+[Go fund me](https://paypal.me/MATTEXitLoesungen?country.x=DE&locale.x=de_DE!) free of charge
 
-##### declaration
-Windroid 11 is yet in the beta phase.
+###### declaration
+Windroid 11 is in the early stages of development.
 Don't expect miracles.
-Not related with Microsoft or Valve Corporation
-In this OS @ptitseb's Box64/Box86 was used
+Not related with Microsoft or Valve Corporation!
+In this OS @ptitSeb's Box64/Box86 was used.
 Icons by @yeyushengfan258
