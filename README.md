@@ -42,7 +42,7 @@ pkg i proot p7zip pulseaudio wget -y
 # cd ./storage/external-1/
 cd /sdcard/Download/
 wget https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.003 # link muss beim veröffentlichen aktualisiert werden.
-7z x ./Win11.7z.001 # .002,.003 is automatically recognized in the same directory.
+7z x ./Win11.7z.001 -o/data/data/com.termux/files/home/ # .002,.003 is automatically recognized in the same directory.
 cd /data/data/com.termux/files/home/
 chmod +x ./Win11
 ./Win11
