@@ -82,7 +82,7 @@ in termux Windroid 11 .
 ##### A complete documentation is coming soon.
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
 #### [Fund the Windroid 11 project](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE)
-Windroid 11 is in the early stages of development and in absence of more sponsors I'm forced to give up the time intensive enhancements for more paid jobs. [Test](<div id="paypal-button-container-P-4C5837267N8919331MTCOQWA"></div>
+Windroid 11 is in the early stages of development and in absence of more sponsors I'm forced to give up the time intensive enhancements for more paid jobs. <div id="paypal-button-container-P-4C5837267N8919331MTCOQWA"></div>
 <script src="https://www.paypal.com/sdk/js?client-id=Ad946za0_YSdIbj1usnUq9e6MkIyyZMO4yRQnuvKWatNXpRhjNBXiIO_vIYFU0ko9ICOedDUR3tkWtO7&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
@@ -102,7 +102,7 @@ Windroid 11 is in the early stages of development and in absence of more sponsor
         alert(data.subscriptionID); // You can add optional success message for the subscriber here
       }
   }).render('#paypal-button-container-P-4C5837267N8919331MTCOQWA'); // Renders the PayPal button
-</script>)
+</script>
 
 ###### declaration
 Don't expect miracles, because Windroid 11 is in the early stages of development.
