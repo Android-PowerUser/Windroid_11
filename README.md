@@ -59,6 +59,8 @@ Otherwise accept the storage permission. If you know you don't have Android 12+ 
 Complete.
 You are viewing Windroid 11!
 
+For the next start, long press on an empty space in your Android home screen and select Widget and find a small icon from the app Termux:Widget and place it on the home screen.  When you press it, Windroid 11 will start
+
 ## If you get an error while installing
 If you no longer have access to your storage due to duplicate termux-setup-storage, try deleting the permissions on the Termux storage and then(!):
 ```
@@ -74,10 +76,16 @@ happened when you open Steam, try:
 ```
 apt install box64-android=0.2.3+20230603.4f1cefe-1
 ```
+in termux Windroid 11 .
+
 ## Documentation
 ##### A complete documentation is coming soon.
-Windroid 11 is yet in the beta phase.
-
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
+Go fund me free of charge https://paypal.me/MATTEXitLoesungen?country.x=DE&locale.x=de_DE!
 
+##### declaration
+Windroid 11 is yet in the beta phase.
+Don't expect miracles.
+Not related with Microsoft or Valve Corporation
+In this OS @ptitseb's Box64/Box86 was used
 Icons by @yeyushengfan258
