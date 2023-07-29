@@ -11,7 +11,7 @@ Windroid 11 is a Windows 11 equivalent for Android.
 ##### Windows and Linux Applications work
 ##### Steam is pre-installed
 ##### Usual handling
-
+![](https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230203-144010_VNC%20Viewer.jpg)
 
 ## Needed to install
 
