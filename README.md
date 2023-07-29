@@ -12,7 +12,7 @@ Windroid 11 is a Windows 11 equivalent for Android.
 ##### Steam is pre-installed
 ##### Usual handling
 
-<img src="https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230720-114026_VNC%20Viewer.jpg" alt="" width="50"/> <img src="https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230714-114251_VNC%20Viewer.jpg" alt="" width="50"/>
+<img src="https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230720-114026_VNC%20Viewer.jpg" alt="" width="125"/> <img src="https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230714-114251_VNC%20Viewer.jpg" alt="" width="120"/>
 ## Needed to install
 
 Min. 13-17 GB internal storage depending whether you have an SD card and your choose in the code (see below).
