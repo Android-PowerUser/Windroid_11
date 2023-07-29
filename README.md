@@ -81,7 +81,7 @@ in termux Windroid 11 .
 ## Documentation
 ##### A complete documentation is coming soon.
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
-#### [Fund the Windroid 11 project](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE)
+##### [Fund the Windroid 11 project](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE)
 Windroid 11 is in the early stages of development and in absence of more sponsors I'm forced to give up the time intensive enhancements for more paid jobs. So [subscribe](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4C5837267N8919331MTCOQWA) to this project.
 ###### declaration
 Don't expect miracles, because Windroid 11 is in the early stages of development.
