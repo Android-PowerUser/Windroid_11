@@ -25,11 +25,11 @@ Android 7+ (more reports necessary)
 
 ## Easy install
 
-Download <br>
+Download the following files: <br> <br>
 [Termux.apk](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) <br>
 [Termux:Widget.apk](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk)
-and <br>
-[VNC Viewer v3.8.0.48261.apk](https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-3d8afee65340ab832c3e/VNC.Viewer_3.8.0.48261-arm64.apk)
+<br>
+[VNC Viewer v3.8.0.48261.apk](https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-3d8afee65340ab832c3e/VNC.Viewer_3.8.0.48261-arm64.apk) <br> <br>
 and install (go in the Android settings and enable install of unknown sources)
 
 Open Termux and copy/paste the follow code:
@@ -40,7 +40,7 @@ pkg upgrade -y
 pkg i proot p7zip pulseaudio wget -y
 # swap the "#" in the next line with the next one after that to download on the SD-Card (it will still be installed on the internal memory)
 # cd ./storage/external-1/
-cd ./sdcard/Download/
+cd /sdcard/Download/
 wget https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.003 # link muss beim veröffentlichen aktualisiert werden.
 7z x ./Win11.7z.001 # .002,.003 is automatically recognized in the same directory.
 cd /data/data/com.termux/files/home/
@@ -58,7 +58,9 @@ content IS NOT going to be deleted.
 Do you want to continue? (y/n)
 ```
 tap n and press Enter.
-Otherwise accept the storage permission. During the process you will be asked several times:
+Otherwise accept the storage permission. 
+
+During the process you will be asked several times:
 ```
 The default action is to keep your current version.
 *** motd (Y/I/N/O/D/Z) [default=N] ?
