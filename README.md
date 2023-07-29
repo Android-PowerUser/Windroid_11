@@ -82,7 +82,7 @@ in termux Windroid 11 .
 ##### A complete documentation is coming soon.
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
 #### [Go fund Windroid 11](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE)
-Free of charge. In absence of more sponsors I'm forced to give up the time intensive enhancements for more paid jobs.
+Windroid 11 is in the early stages of development and in absence of more sponsors I'm forced to give up the time intensive enhancements for more paid jobs.
 
 ###### declaration
 Windroid 11 is in the early stages of development.
