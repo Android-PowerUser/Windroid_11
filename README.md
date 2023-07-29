@@ -85,8 +85,7 @@ It is based on the Linux kernel that is preinstalled on every Androidsystem.
 Windroid 11 is in the early stages of development and in absence of more sponsors I'm forced to give up the time intensive enhancements for more paid jobs.
 
 ###### declaration
-Windroid 11 is in the early stages of development.
-Don't expect miracles.
+Don't expect miracles, because Windroid 11 is in the early stages of development.
 Not related with Microsoft or Valve Corporation!
 In this OS @ptitSeb's Box64/Box86 was used.
 Icons by @yeyushengfan258
