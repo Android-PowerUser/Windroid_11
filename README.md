@@ -90,4 +90,4 @@ In this OS @ptitSeb's Box64/Box86 was used.
 Icons by @yeyushengfan258
 
 
-###### [Go fund the Windroid 11 project](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE). In absence of more sponsors I'm forced to give up the time intensive, urgently needed enhancements for more paid jobs. Those who [donate](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4C5837267N8919331MTCOQWA) at least 5 USD in a month will be listed as a backer below.
+###### [Go fund the Windroid 11 project](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE). Those who [donate](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4C5837267N8919331MTCOQWA) at least 5 USD in a month will be listed as a backer below.
