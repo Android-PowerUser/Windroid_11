@@ -83,7 +83,7 @@ in termux Windroid 11 .
 It is based on the Linux kernel that is preinstalled on every Androidsystem.
 
 
-###### declaration
+##### declaration
 Don't expect miracles, because Windroid 11 is in the early stages of development.
 Not related with Microsoft or Valve Corporation!
 In this OS @ptitSeb's Box64/Box86 was used.
