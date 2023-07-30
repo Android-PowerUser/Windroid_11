@@ -163,7 +163,7 @@ apt install python3 python3-pip
 ```
 find the python file and run it:
 ```
-Python3 /path/to/file
+python3 /path/to/file
 ```
 
 
