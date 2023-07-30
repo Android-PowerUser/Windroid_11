@@ -103,7 +103,39 @@ Keep in mind that some files are only virtual and some contents of files as well
 
 Logically, no browser is installed in Windroid 11 because you already have one on your Android. You can easily access the internal memory from Windroid 11 for downloads.
 
-If you have any questions you can join this [group](https://t.me/box64droidchat) or you can use the pre-installed [SHELL-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at OpenAI.
+The KDE own app store Discover does not work. This could be because it probably isn't tailored for poor processors.  Accordingly, Flatpak and Snap have not yet worked via the graphical user interface (GUI).  Trying to use the Gnome Software Center instead also resulted in an empty App Store.  You can install apps with Termux after starting Windroid 11 with:
+```
+apt install <your application>
+```
+You can use a chatbot to find out the exact package name. If you are in a user other than root, you must prepend sudo and grant sudoers permission beforehand. You can then mostly start the application with the exact package name. If your application doesn't exist for arm64 Ubuntu you can try:
+```
+apt install <your application>:i386 ```
+or
+```
+apt install <your application>:amd64 ```
+then start your application with
+```
+box64  <Your application>
+```
+If that doesn't work, try:
+```
+box86 <Your application>
+```
+If that doesn't work either, try afterwards(!) (for reasons of speed) to download a Windows application via an Android internal browser. Due to an error in KDE, you cannot run the file directly for supposed security reasons. In the poor version of KDE the bug is not fixed yet. You can therefore either try to rename every .exe file extension in Android by default to a different extension and then set the properties for a file in Windroid 11 to run with box64 wine64 and then give the file the execute permission don't forget or give it  in Termux:
+```
+box64 wine64 <path/to/application/from/windroid/from>
+```
+Although wine64 also contains 32 bit libraries, you may need to change the wine prefix to
+```
+export WINEARCH=win32 export WINEPREFIX=~/.wine86
+```
+by copy/pasting this in Termux.  After that, press the Win11 Widget again and try again. Remember that you should restore the wineprefix afterwards, otherwise other applications such as Steam will no longer work:
+```
+export WINEARCH=win64 export WINEPREFIX=~/.wine64
+```
+Press the Win11 widget again to apply it.
+
+If you have any questions you can join this [group](https://t.me/box64droidchat) or you can use the pre-installed [SHELL-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at [OpenAI](https://platform.openai.com/account/api-keys).
 
 
 This [group](https://t.me/Windroid_11) is for Windroid 11 developers.
