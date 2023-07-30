@@ -109,7 +109,8 @@ apt install <your application>
 ```
 You can use a chatbot to find out the exact package name. If you are in a user other than root, you must prepend sudo and grant sudoers permission beforehand. You can then mostly start the application with the exact package name. If your application doesn't exist for arm64 Ubuntu you can try:
 ```
-apt install <your application>:i386 ```
+apt install <your application>:i386
+```
 or
 ```
 apt install <your application>:amd64 ```
