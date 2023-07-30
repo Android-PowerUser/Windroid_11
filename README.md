@@ -136,7 +136,7 @@ If that doesn't work, try:
 ```
 box86 <Your application>
 ```
-If that doesn't work either, try afterwards(!) (for reasons of speed) to download a Windows application via an Android internal browser. Due to an error in KDE, you cannot run the file directly for supposed security reasons. In the poor version of KDE the bug is not fixed yet. You can therefore either try to rename every .exe file extension in Android by default to a different extension and then set the properties for a file in Windroid 11 to run with box64 wine64 and then give the file the execute permission don't forget or give it  in Termux:
+If that doesn't work either, try afterwards(!) (for reasons of speed) to download a Windows application via an Android internal browser. Due to an error in KDE, you cannot run the file directly for supposed security reasons. In the arm version of KDE the bug is not fixed yet. You can therefore either try to rename every .exe file extension in Android by default to a different extension and then set the properties for a file in Windroid 11 to run with box64 wine64 and then give the file the execute permission don't forget or give it  in Termux:
 ```
 box64 wine64 <path/to/application/from/windroid/from>
 ```
@@ -152,7 +152,7 @@ export WINEPREFIX=~/.wine64
 ```
 Press the Win11 widget again to apply it.
 
-If you download .deb files, they must be for poor processors. If not, unpack the file with MiXplorer for example and locate the ELF file by opening the contained files with a text editor. If the file starts with ELF, run it from within this folder in Windroid 11:
+If you download .deb files, they must be for arm processors. If not, unpack the file with MiXplorer for example and locate the ELF file by opening the contained files with a text editor. If the file starts with ELF, run it from within this folder in Windroid 11:
 ```
 box64 /path/to/the/ELF-file
 ```
