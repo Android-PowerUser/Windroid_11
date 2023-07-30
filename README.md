@@ -92,7 +92,7 @@ happened when you open Steam, try:
 ```
 apt install box64-android=0.2.3+20230603.4f1cefe-1
 ```
-in termux Windroid 11 .
+in termux Windroid 11.
 
 ## Documentation
 ##### A complete documentation is coming soon.
@@ -101,15 +101,18 @@ Before you start Steam, you can here disable [Steam Guard](https://store.steampo
 
 If you put the screen in landscape mode, you will probably have to move the "portrait.sh" and "rotate to landscape.sh" widgets because they're moving over the icons, because these two are not classic shortcuts, you have to right-click (with 2 fingers  tap) on the widgets and enter "Edit Mode". Then you can move them. The widgets were necessary so that each file could have its own icon.
 
-If you want the screen to start in landscape mode by default, from AOSP-Files App or MiXplorer and a text editor, edit the /usr/local/bin/vncstart in the root-fs of Windroid 11 by reversing the resolution next to vncserver -geometry. Remember that after every modification of an executable you need to restore the execute permission. This can only be done in Termux, if you have not previously started the graphical interface. So press the widget, ignore the error message and copy/paste the following: ```
-chmod +x /usr/local/bin/vncstart
-```
-Now press the widget again and every start of Windroid 11 will then happen in landscape mode.
 
 You can manage Windroid 11 file system with the AOSP-Files app or [MiXplorer](https://drive.google.com/drive/u/0/mobile/folders/1BfeK39boriHy-9q76eXLLqbCwfV17-Gv?usp=share_link&pli=1) for example and also Windroid 11 can access internal memory and SD card in path "/Android/data/com.termux/files/". For example, like Samsung, if you can't see the AOSP-Files app, you can install this [AOSP-Files shortcut app](https://play.google.com/store/apps/details?id=com.marc.files).
 
 With MiXplorer, you must first add a storage, then select Termux in the AOSP-Files app in the hamburger menu. You don't need the shortcut app for that, no matter what brand you have.  Whenever possible, you should manage Windroid 11's file system via Android because it's faster.
 Keep in mind that some files are only virtual and some contents of files as well.
+
+If you want the screen to start in landscape mode by default, from AOSP-Files App or MiXplorer and a text editor, edit the /usr/local/bin/vncstart in the root-fs of Windroid 11 by reversing the resolution next to vncserver -geometry. Remember that after every modification of an executable you need to restore the execute permission. This can only be done in Termux, if you have not previously started the graphical interface. So press the widget, ignore the error message and copy/paste the following:
+```
+chmod +x /usr/local/bin/vncstart
+```
+Now press the widget again and every start of Windroid 11 will then happen in landscape mode.
+
 
 Logically, no browser is installed in Windroid 11 because you already have one on your Android. You can easily access the internal memory from Windroid 11 for downloads.
 
