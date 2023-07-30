@@ -134,7 +134,7 @@ The KDE own app store Discover does not work. This could be because it probably 
 ```
 apt install <your application>
 ```
-You can use a chatbot to find out the exact package name. If you are in a user other than root, you must prepend sudo and grant sudoers permission beforehand. You can then mostly start the application with the exact package name. If your application doesn't exist for arm64 Ubuntu you can try:
+You can use the [Windroid 11 chatbot](https://poe.com/Windroid_11) to find out the exact package name. If you are in a user other than root, you must prepend sudo and grant sudoers permission beforehand. You can then mostly start the application with the exact package name. If your application doesn't exist for arm64 Ubuntu you can try:
 ```
 apt install <your application>:i386
 ```
