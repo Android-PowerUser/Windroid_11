@@ -113,7 +113,8 @@ apt install <your application>:i386
 ```
 or
 ```
-apt install <your application>:amd64 ```
+apt install <your application>:amd64
+```
 then start your application with
 ```
 box64  <Your application>
