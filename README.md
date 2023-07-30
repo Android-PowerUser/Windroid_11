@@ -129,11 +129,13 @@ box64 wine64 <path/to/application/from/windroid/from>
 ```
 Although wine64 also contains 32 bit libraries, you may need to change the wine prefix to
 ```
-export WINEARCH=win32 export WINEPREFIX=~/.wine86
+export WINEARCH=win32
+export WINEPREFIX=~/.wine86
 ```
 by copy/pasting this in Termux.  After that, press the Win11 Widget again and try again. Remember that you should restore the wineprefix afterwards, otherwise other applications such as Steam will no longer work:
 ```
-export WINEARCH=win64 export WINEPREFIX=~/.wine64
+export WINEARCH=win64
+export WINEPREFIX=~/.wine64
 ```
 Press the Win11 widget again to apply it.
 
