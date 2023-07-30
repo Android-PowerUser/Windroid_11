@@ -97,9 +97,13 @@ in termux Windroid 11.
 ## Documentation
 ##### A complete documentation is coming soon.
 
+#### basics
+
+Any shortcut, widget or file in KDE or Dolphin (file manager) is launched with one click.  If you double-click, each application start may be delayed.
+
 #### Steam
 
-Before you start Steam, you can here disable [Steam Guard](https://store.steampowered.com/twofactor/manage) to make signing in smoother and less error prone.
+Before you start Steam, you can here disable [Steam Guard](https://store.steampowered.com/twofactor/manage) to make signing in smoother and less error prone. Wait at least 2 minutes before trying to start Steam again. The start of an application can take some time.
 
 #### landscape
 
