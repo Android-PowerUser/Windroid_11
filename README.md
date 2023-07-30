@@ -67,7 +67,7 @@ The default action is to keep your current version.
 ```
 Press N and Enter every times.
 
-Now, if you know you don't have Android 12+ or disabled Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process. In the VNC Viewer, click the + and enter :1 in the first line.  Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors. Go back to termux, if not already complete. The Win11.7z is divided into 3 parts. Therefore, do not be irritated if several larger files are downloaded.<br>
+Now, if you know you don't have Android 12+ or disabled the Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process. In the VNC Viewer, click the + and enter :1 in the first line.  Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors. Go back to termux, if not already complete. The Win11.7z is divided into 3 parts. Therefore, do not be irritated if several larger files are downloaded.<br>
 <br>
 After the completed installation go back to VNC Viewer and press "Connect".  Disable "warn me every time" then press "Ok", enter the password 123456 and confirm.
 Complete.
@@ -98,16 +98,19 @@ in termux Windroid 11 .
 ##### A complete documentation is coming soon.
 You can manage Windroid 11 file system with the AOSP-Files app or [MiXplorer](https://drive.google.com/drive/u/0/mobile/folders/1BfeK39boriHy-9q76eXLLqbCwfV17-Gv?usp=share_link&pli=1) for example and also Windroid 11 can access internal memory and SD card in path "/Android/data/com.termux/files/". For example, like Samsung, if you can't see the AOSP-Files app, you can install this [AOSP-Files shortcut app](https://play.google.com/store/apps/details?id=com.marc.files).
 
-With MiXplorer, you must first add a storage, then select Termux in the AOSP-Files app in the hamburger menu.  You don't need the shortcut app for that, no matter what brand you have.  Whenever possible, you should manage Windroid 11's file system via Android because it's faster.  Keep in mind that some files are only virtual and some contents of files as well.
+With MiXplorer, you must first add a storage, then select Termux in the AOSP-Files app in the hamburger menu. You don't need the shortcut app for that, no matter what brand you have.  Whenever possible, you should manage Windroid 11's file system via Android because it's faster.
+Keep in mind that some files are only virtual and some contents of files as well.
 
-Logically, no browser is installed in Windroid 11 because you already have one on your Android.  You can easily access the internal memory from Windroid 11.
+Logically, no browser is installed in Windroid 11 because you already have one on your Android. You can easily access the internal memory from Windroid 11 for downloads.
+
+If you have any questions you can join this [group](https://t.me/box64droidchat) or you can use the pre-installed [SHELL-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at OpenAI.
 
 
-It is based on the Linux kernel that is preinstalled on every Androidsystem.
+This [group](https://t.me/Windroid_11) is for Windroid 11 developers.
 
-A [group](https://t.me/Windroid_11) for Windroid 11 developers only.
+This OS runs on the Linux kernel that is preinstalled on every Androidsystem and based on Ubuntu with KDE and many visual and technical adjustments.
 
-A separate support group is coming soon.
+Windroid 11 runs via change root (chroot). So applications always find the right directory even though they can't actually access the root directory. Also, many applications need root privileges to install applications, for example, because they don't know that they don't actually need root privileges here.  So the user ID 0 must also be simulated. Which leads the applications to believe they have root access. Although they don't need root privileges anyway.  But they do their job.  This requires process trace, which is a kernel function found in almost all Unix-like operating systems. Unfortunately this is very slow, but without a UID you can't even get the graphical interface to work. In addition, with PRoot process trace is always activated anyway, whether it is needed or not. These and more features are all available in PRoot.  The P stands for process trace and the rest for chroot. In order for Windroid 11 to start, a file containing the PRoot options is executed. It is located in the Termux home directory (/data/data/com.termux/files/home/Win11 and /data/data/com.termux/files/home/.shortcuts/Win11). You can edit the files with a text editor in such a way that VNC Viewer is opened immediately when the widget is started. How to do this is in the files. Note that VNC Viewer may start earlier than VNC Server has established the connection. Then try to connect to the desktop again in VNC Viewer.
 
 #### You can [fund](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE) the Windroid 11 project.
 Those who [donate](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4C5837267N8919331MTCOQWA) at least 5 USD will be listed as a backer below.
