@@ -152,7 +152,22 @@ export WINEPREFIX=~/.wine64
 ```
 Press the Win11 widget again to apply it.
 
-If you have any questions you can join this [group](https://t.me/box64droidchat) or you can use the pre-installed [SHELL-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at [OpenAI](https://platform.openai.com/account/api-keys).
+If you download .deb files, they must be for poor processors. If not, unpack the file with MiXplorer for example and locate the ELF file by opening the contained files with a text editor. If the file starts with ELF, run it from within this folder in Windroid 11:
+```
+box64 /path/to/the/ELF-file
+```
+
+Some .deb files do not contain an ELF file. This may mean they need an interpreter like Python. Install Python and pip:
+```
+apt install python3 python3-pip
+```
+find the python file and run it:
+```
+Python3 /path/to/file
+```
+
+
+If you have any questions you can join this [group](https://t.me/box64droidchat) or you can use the pre-installed [Shell-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at [OpenAI](https://platform.openai.com/account/api-keys).
 
 
 This [group](https://t.me/Windroid_11) is for Windroid 11 developers.
