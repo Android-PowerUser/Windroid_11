@@ -103,7 +103,7 @@ Keep in mind that some files are only virtual and some contents of files as well
 
 Logically, no browser is installed in Windroid 11 because you already have one on your Android. You can easily access the internal memory from Windroid 11 for downloads.
 
-The KDE own app store Discover does not work. This could be because it probably isn't tailored for poor processors.  Accordingly, Flatpak and Snap have not yet worked via the graphical user interface (GUI).  Trying to use the Gnome Software Center instead also resulted in an empty App Store.  You can install apps with Termux after starting Windroid 11 with:
+The KDE own app store Discover does not work. This could be because it probably isn't tailored for arm processors. Accordingly, Flatpak and Snap have not yet worked via the graphical user interface (GUI).  Trying to use the Gnome Software Center instead also resulted in an empty App Store. You can install apps with Termux after starting Windroid 11 with:
 ```
 apt install <your application>
 ```
