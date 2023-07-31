@@ -185,7 +185,7 @@ If you have any questions you can join this [group](https://t.me/box64droidchat)
 
 #### Devs
 
-This [group](https://t.me/Windroid_11) is for Windroid 11 developers. Necessary further developments are discussed in the group. For example the ones that are still missing: VirGL, Proton 8.0 and Winetricks
+This [group](https://t.me/Windroid_11) is for Windroid 11 developers. Necessary further developments are discussed in the group. For example the ones that are still missing: VirGL, Proton 8.0, Winetricks and faster root version
 
 #### How does it work
 
