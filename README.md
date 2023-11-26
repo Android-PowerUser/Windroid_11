@@ -32,7 +32,7 @@ Download the following files: <br> <br>
 [VNC Viewer v3.8.0.48261.apk](https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-3d8afee65340ab832c3e/VNC.Viewer_3.8.0.48261-arm64.apk) <br> <br>
 and install (go in the Android settings and enable install of unknown sources)
 
-Open Termux and copy/paste one of the follow codes:
+Open Termux and copy/paste one of the following codes:
 
 ### To download and install on the external SDCard
 ```
