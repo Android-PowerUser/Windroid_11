@@ -34,7 +34,7 @@ and install (go in the Android settings and enable install of unknown sources)
 
 Open Termux and copy/paste one of the following codes:
 
-### To download and install on the external SDCard
+### To download and install it on the external SDCard
 ```
 termux-setup-storage
 pkg update -y
@@ -53,7 +53,7 @@ ln -s "./storage/external-1/Windroid 11" ubuntu-fs
 chmod +x ./Win11
 ./Win11
 ```
-### To download and install on the internal Storage (Termux Home)
+### To download and install it on the internal Storage (Termux Home)
 ```
 termux-setup-storage
 pkg update -y
