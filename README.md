@@ -17,7 +17,7 @@ Windroid 11 is a Windows 11 equivalent for Android.
 <img src="https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230729-152025_VNC%20Viewer.jpg" alt="" width="500"/>
 ## Needed to install
 
-Min. 13-17 GB internal storage depending whether you have an SD card and your choose in the code (see below).
+Min. 17 GB storage short term and installed 13 GB.
 
 ARM Processor 64-bit (probably max. 6 year old low budget device)
 
@@ -33,13 +33,30 @@ Download the following files: <br> <br>
 and install (go in the Android settings and enable install of unknown sources)
 
 Open Termux and copy/paste the follow code:
+
+### To download and install on the external SDCard
 ```
 termux-setup-storage
 pkg update -y
 pkg upgrade -y
 pkg i proot p7zip pulseaudio wget -y
-# swap the "#" in the next line with the next one after that to download on the SD-Card (it will still be installed on the internal memory)
-# cd ./storage/external-1/
+cd $HOME
+rm -rf ./ubuntu-fs
+cd ./storage/external-1/
+wget https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.003
+7z x ./Win11.7z.001 -o/data/data/com.termux/files/home/ # .002,.003 is automatically recognized in the same directory.
+ln -s "./storage/external-1/ubuntu-fs" ubuntu-fs
+cp ./Win11 $HOME/
+cp ./ubuntu-binds/ $HOME/
+chmod +x ./Win11
+./Win11
+```
+### To download and install on the internal Storage (Termux Home)
+```
+termux-setup-storage
+pkg update -y
+pkg upgrade -y
+pkg i proot p7zip pulseaudio wget -y
 cd /sdcard/Download/
 wget https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.003
 7z x ./Win11.7z.001 -o/data/data/com.termux/files/home/ # .002,.003 is automatically recognized in the same directory.
@@ -57,7 +74,7 @@ content IS NOT going to be deleted.
 
 Do you want to continue? (y/n)
 ```
-tap n and press Enter.
+tap y and press Enter.
 Otherwise accept the storage permission. 
 
 During the process you will be asked several times:
