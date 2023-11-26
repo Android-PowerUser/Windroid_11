@@ -133,7 +133,7 @@ The KDE own app store Discover does not work. This could be because it probably 
 ```
 apt install your_application
 ```
-You can use the [Windroid 11 chatbot](https://poe.com/Windroid_11) to find out the exact package name. If you are in a user other than root, you must prepend sudo and grant sudoers permission beforehand. You can then mostly start the application with the exact package name. If your application doesn't exist for arm64 Ubuntu you can try:
+You can use a chatbot to find your exact package name. If you are in a user other than root, you must prepend sudo and grant sudoers permission beforehand. You can then mostly start the application with the exact package name. If your application doesn't exist for arm64 Ubuntu you can try:
 ```
 apt install your_application:i386
 ```
@@ -180,7 +180,7 @@ python3 /path/to/file
 ```
 #### Questions
 
-If you have any questions you can join this [group](https://t.me/box64droidchat) or you can use the pre-installed [Shell-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at [OpenAI](https://platform.openai.com/account/api-keys). Or you can ask the [Windroid 11 chatbot](https://poe.com/Windroid_11) fed the documentation of this repo based on Claude 2 100k.
+If you have any questions you can join this [group](https://t.me/box64droidchat) or you can use the pre-installed [Shell-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at [OpenAI](https://platform.openai.com/account/api-keys). Or you can ask the [Windroid 11 chatbot](https://poe.com/Windroid_11) (Unfortunately, it is now subject to a charge) fed the documentation of this repo based on Claude 2 100k.
 
 #### Devs
 
