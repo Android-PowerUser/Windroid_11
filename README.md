@@ -25,7 +25,7 @@ Android 7+ (more reports necessary)
 
 ## Easy install
 
-Download the following files: <br> <br>
+Download the following files: <br>
 [Termux.apk](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk) <br>
 [Termux:Widget.apk](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk)
 <br>
