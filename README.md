@@ -53,7 +53,7 @@ ln -s "./storage/external-1/Windroid 11" ubuntu-fs
 chmod +x ./Win11
 ./Win11
 ```
-Unpacking the SD card takes a few hours because write permission for each file is passed to Termux individually.
+Unpacking the SD card takes a over 24 hours because write permission for each file is passed to Termux individually.
 ### To download and install it on the internal Storage (Termux Home)
 ```
 termux-setup-storage
