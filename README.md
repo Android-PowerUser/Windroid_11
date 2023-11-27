@@ -30,7 +30,7 @@ Download the following files: <br>
 [Termux:Widget.apk](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk)
 <br>
 [VNC Viewer v3.8.0.48261.apk](https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-3d8afee65340ab832c3e/VNC.Viewer_3.8.0.48261-arm64.apk) <br>
-and install (go in the Android settings and enable install of unknown sources)
+and install (go in the Android settings and enable install of unknown sources).
 
 #### To download and install it on the internal Storage (Termux Home)
 
