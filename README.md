@@ -45,7 +45,7 @@ rm -rf ./ubuntu-fs
 cd ./storage/external-1/
 wget https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.003
 7z x ./Win11.7z.001 -o/data/data/com.termux/files/home/storage/external-1/ # .002,.003 is automatically recognized in the same directory.
-mv ./storage/external-1/ubuntu-fs ./storage/external-1/Windroid\ 11
+mv ./ubuntu-fs ./Windroid\ 11
 cp ./Win11 $HOME/
 cp ./ubuntu-binds/ $HOME/
 cd $HOME
@@ -53,7 +53,7 @@ ln -s "./storage/external-1/Windroid 11" ubuntu-fs
 chmod +x ./Win11
 ./Win11
 ```
-Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking.
+Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking.
 
 ### To download and install it on the internal Storage (Termux Home)
 ```
