@@ -50,7 +50,7 @@ chmod +x ./Win11
 
 #### To download and install it on the external SDCard
 
-Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking.
+Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking. The follow code consider both.
 
 Open Termux and copy/paste the following code:
 
