@@ -32,9 +32,9 @@ Download the following files: <br> <br>
 [VNC Viewer v3.8.0.48261.apk](https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-3d8afee65340ab832c3e/VNC.Viewer_3.8.0.48261-arm64.apk) <br> <br>
 and install (go in the Android settings and enable install of unknown sources)
 
-Open Termux and copy/paste one of the following codes:
-
 #### To download and install it on the internal Storage (Termux Home)
+
+Open Termux and copy/paste one of the following code:
 ```
 termux-setup-storage
 pkg update -y
@@ -51,6 +51,8 @@ chmod +x ./Win11
 #### To download and install it on the external SDCard
 
 Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking.
+
+Open Termux and copy/paste one of the following code:
 
 ```
 termux-setup-storage
