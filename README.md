@@ -34,7 +34,7 @@ and install (go in the Android settings and enable install of unknown sources).
 
 #### To download and install it on the internal Storage (Termux Home)
 
-Open Termux and copy/paste one of the following code:
+Open Termux and copy/paste the following code:
 ```
 termux-setup-storage
 pkg update -y
@@ -52,7 +52,7 @@ chmod +x ./Win11
 
 Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking.
 
-Open Termux and copy/paste one of the following code:
+Open Termux and copy/paste the following code:
 
 ```
 termux-setup-storage
