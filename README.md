@@ -6,10 +6,10 @@ Windroid 11 is a Windows 11 equivalent for Android.
 
 ## Goals of Windroid 11
 
-##### No OS Emulation
 ##### No Root access necessary
 ##### Windows and Linux Applications work
 ##### Steam is pre-installed
+##### No OS Emulation
 ##### Usual handling
 
 <img src="https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230720-114026_VNC%20Viewer.jpg" alt="" width="141"/> <img src="https://github.com/Android-PowerUser/Windroid_11/blob/main/Pictures/Screenshot_20230714-114251_VNC%20Viewer.jpg" alt="" width="141"/>
