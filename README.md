@@ -50,7 +50,9 @@ chmod +x ./Win11
 
 #### To download and install it on the external SDCard
 
-Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually of Android. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you can, you should use a PC or MicroSD to OTG adapter (OTG is not tested) for the unpacking. The follow code consider both. The script will guide you as you run it.
+This can only work if your micro SD is formatted in exFAT, because FAT32 does not support symlincs, but a Linux based OS has many of them.  Samsung has been providing exFAT support since at least 4.4+, but it is only supposed to be officially introduced in the kernel with Android 14, which means that most smartphones on the market still do not support exFAT. You can see that when you insert it for the first time, you first have to format the micro SD because SDXC cards are formatted in exFAT by default. Maybe ext4 is a solution?
+
+Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually of Android. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you can, you should use a PC. Even on the PC it still takes 15 hours. Maybe this is due to the simultaneous reading and writing from the micro SD.  Alternatively, you can try to load the Win11.7z.00X files onto the PC using the link from the script and, when executing the code, cancel the download by turning off the Internet and unpack the files manually into the path from the script, but I have  not tested it. OTG is 56% faster (for whatever reason), but the device on the cell phone will probably annoying after a while. The follow code consider both. The script will guide you as you run it.
 
 Open Termux and copy/paste the following code:
 
