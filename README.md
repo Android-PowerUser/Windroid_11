@@ -50,9 +50,9 @@ chmod +x ./Win11
 
 #### To download and install it on the external SDCard
 
-This can only work if your micro SD is formatted in exFAT, because FAT32 does not support symlincs, but a Linux based OS has many of them.  Samsung has been providing exFAT support since at least 4.4+, but it is only supposed to be officially introduced in the kernel with Android 14, which means that most smartphones on the market still do not support exFAT. You can see that when you insert it for the first time, you first have to format the micro SD because SDXC cards are formatted in exFAT by default. Maybe ext4 is a solution?
+This can only work if your micro SD is formatted in exFAT, because FAT32 does not support symlincs, but a Linux based OS has many of them.  Samsung has been providing exFAT support since at least 4.4+, but it is only supposed to be officially introduced in the kernel with Android 14, which means that most smartphones on the market still do not support exFAT. You can see that when you insert it for the first time, you first have to format the micro SD because SDXC cards are formatted in exFAT by default. FAT32 does not allow you to shrink the volume. You have to put everything on a new storage when reformatting. Likewise, you cannot use 2 partitions at once because the smartphone can only recognize one on external storage. Maybe ext4 is a solution?
 
-Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually of Android. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you can, you should use a PC. Even on the PC it still takes 15 hours. Maybe this is due to the simultaneous reading and writing from the micro SD.  Alternatively, you can try to load the Win11.7z.00X files onto the PC using the link from the script and, when executing the code, cancel the download by turning off the Internet and unpack the files manually into the path from the script, but I have  not tested it. OTG is 56% faster (for whatever reason), but the device on the cell phone will probably annoying after a while. The follow code consider both. The script will guide you as you run it.
+Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually of Android. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you can, you should use a PC. Even on the PC it still takes 15 hours. Maybe this is due to the simultaneous reading and writing from the micro SD.  Alternatively, you can try to load the Win11.7z.00X files onto the PC using the link from the script and, when executing the code, cancel the download by turning off the Internet and unpack the files manually into the path from the script, but I have  not tested whether it's faster. OTG is 56% faster than the PC (for whatever reason), but the OTG device on the cell phone will probably annoying after a while. The follow code consider all. The script will guide you as you run it.
 
 Open Termux and copy/paste the following code:
 
@@ -66,7 +66,7 @@ rm -rf ./ubuntu-fs
 cd ./storage/external-1/
 wget https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.003
 while true; do
-    echo "Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking. Unpacking anyway? (y/n)"
+    echo "Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking. Unpacking still with Termux? (y/n)"
     read input
 if [ "$input" == "y" ] || [ "$input" == "Y" ]; then
 echo "Windroid 11 will unpacked. Until tomorrow... 👋"
@@ -82,7 +82,7 @@ chmod +x ./Win11
     elif [ "$input" == "n" ] || [ "$input" == "N" ]; then
         echo "You answered no. Canceled... 
 The downloaded files are in the SD-Card /Android/data/com.termux/files/ extract into the same folder. After that you can delete Win11.7z.00x.
-Then run the following code in Termux:
+Then copy/paste the following code in Termux:
 cd ./storage/external-1/
 mv ./ubuntu-fs ./Windroid\ 11
 cp ./Win11 $HOME/
