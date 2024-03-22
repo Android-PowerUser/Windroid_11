@@ -50,7 +50,7 @@ chmod +x ./Win11
 
 #### To download and install it on the external SDCard (unfinished)
 
-This branch is a fork of main. The microSD script causes problems like those described [here](https://github.com/Android-PowerUser/Windroid_11/issues/7)If you know how to solve them, submit a pull request.
+This branch is a fork of main. The microSD script causes problems like those described [here](https://github.com/Android-PowerUser/Windroid_11/issues/7). If you know how to solve them, submit a pull request.
 
 This can only work if your micro SD is formatted in exFAT, because FAT32 does not support symlincs, but a Linux based OS has many of them. Samsung has been providing exFAT support since at least Android 4.4+, but it is only supposed to be officially introduced in the kernel with Android 14, which means that most smartphones on the market still do not support exFAT. You can see that when you insert it for the first time, you first have to format the micro SD because SDXC cards are formatted in exFAT by default. FAT32 does not allow you to shrink the volume. You have to put everything on a new storage when reformatting. Likewise, you cannot use 2 partitions at once because the smartphone can only recognize one on external storage. Maybe ext4 is a solution?
 
