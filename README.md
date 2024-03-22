@@ -48,7 +48,6 @@ chmod +x ./Win11
 ./Win11
 ```
 
-#### Installation process
 Then press [Enter] (in your keyboard) and if you see:
 ```
 It appears that directory '~/storage' already exists.
