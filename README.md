@@ -69,8 +69,8 @@ rm -rf ./ubuntu-fs
 cd ./storage/external-1/
 wget https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.001 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.002 https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/Win11.7z.003
 while true; do
-    echo "Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking. Unpacking still with Termux? (y/n)"
-    read input
+echo "Unpacking on the SD card takes over 24 hours because write permission for each file is passed to Termux individually. Termux is WITHOUT Phantom_Process_Killer (Android 12+) stable enough for this, but if you have you should use a PC or MicroSD to OTG adapter for the unpacking. Unpacking still with Termux? (y/n)"
+read input
 if [ "$input" == "y" ] || [ "$input" == "Y" ]; then
 echo "Windroid 11 will unpacked. Until tomorrow... 👋"
 7z x ./Win11.7z.001 -o/data/data/com.termux/files/home/storage/external-1/ # .002,.003 is automatically recognized in the same directory.
@@ -81,9 +81,9 @@ cd $HOME
 ln -s "./storage/external-1/Windroid 11" ubuntu-fs
 chmod +x ./Win11
 ./Win11
-        break
-    elif [ "$input" == "n" ] || [ "$input" == "N" ]; then
-        echo "You answered no. Canceled... 
+break
+elif [ "$input" == "n" ] || [ "$input" == "N" ]; then
+echo "You answered no. Canceled... 
 The downloaded files are in the SD-Card /Android/data/com.termux/files/ extract into the same folder. After that you can delete Win11.7z.00x.
 Then copy/paste the following code in Termux:
 cd ./storage/external-1/
