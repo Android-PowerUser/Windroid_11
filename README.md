@@ -32,7 +32,7 @@ Download the following files: <br>
 [VNC Viewer v3.8.0.48261.apk](https://github.com/Android-PowerUser/Windroid_11/releases/download/untagged-3d8afee65340ab832c3e/VNC.Viewer_3.8.0.48261-arm64.apk) <br>
 and install (go in the Android settings and enable install of unknown sources).
 
-#### To download and install it on the internal Storage (Termux Home)
+#### To download and install it on the internal Storage (Termux Home) (recommended)
 
 Open Termux and copy/paste the following code:
 ```
@@ -48,9 +48,9 @@ chmod +x ./Win11
 ./Win11
 ```
 
-#### To download and install it on the external SDCard
+#### To download and install it on the external SDCard (experimental)
 
-This can only work if your micro SD is formatted in exFAT, because FAT32 does not support symlincs, but a Linux based OS has many of them.  Samsung has been providing exFAT support since at least 4.4+, but it is only supposed to be officially introduced in the kernel with Android 14, which means that most smartphones on the market still do not support exFAT. You can see that when you insert it for the first time, you first have to format the micro SD because SDXC cards are formatted in exFAT by default. FAT32 does not allow you to shrink the volume. You have to put everything on a new storage when reformatting. Likewise, you cannot use 2 partitions at once because the smartphone can only recognize one on external storage. Maybe ext4 is a solution?
+This can only work if your micro SD is formatted in exFAT, because FAT32 does not support symlincs, but a Linux based OS has many of them. Samsung has been providing exFAT support since at least Android 4.4+, but it is only supposed to be officially introduced in the kernel with Android 14, which means that most smartphones on the market still do not support exFAT. You can see that when you insert it for the first time, you first have to format the micro SD because SDXC cards are formatted in exFAT by default. FAT32 does not allow you to shrink the volume. You have to put everything on a new storage when reformatting. Likewise, you cannot use 2 partitions at once because the smartphone can only recognize one on external storage. Maybe ext4 is a solution?
 
 Unpacking on the SD card takes over 36 hours because write permission for each file is passed to Termux individually of Android. Termux is WITHOUT Phantom_Process_Killer (Android 12+) (see below) stable enough for this, but if you can, you should use a PC. Even on the PC it still takes 15 hours. Maybe this is due to the simultaneous reading and writing from the micro SD.  Alternatively, you can try to load the Win11.7z.00X files onto the PC using the link from the script and, when executing the code, cancel the download by turning off the Internet and unpack the files manually into the path from the script, but I have  not tested whether it's faster. OTG is a little bit faster than the PC (for whatever reason), but the OTG device on the cell phone will probably annoying after a while. The follow code consider all. The script will guide you as you run it.
 
