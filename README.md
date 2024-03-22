@@ -70,6 +70,7 @@ while true; do
     read input
 if [ "$input" == "y" ] || [ "$input" == "Y" ]; then
 echo "Windroid 11 will unpacked. Until tomorrow... 👋"
+su
 7z x ./Win11.7z.001 -o/data/data/com.termux/files/home/storage/external-1/ # .002,.003 is automatically recognized in the same directory.
 mv ./ubuntu-fs ./Windroid\ 11
 cp ./Win11 $HOME/
