@@ -80,7 +80,7 @@ You are viewing Windroid 11!
 
 You can now delete the files downloaded from Termux in the Downloads folder of the internal memory.
 
-For the next start, long press on an empty space in your Android home screen and select Widget and find a small icon from the app Termux:Widget and place it on the home screen. When you press it, Windroid 11 will start. Alternatively, you can type ```./Win11``` in the terminal.
+For the next start, make sure you have [Termux:Widget](https://github.com/termux/termux-widget/releases/download/v0.13.0/termux-widget_v0.13.0%2Bgithub-debug.apk) installed. Long press on an empty space in your Android home screen and select Widget and find the small icon from the app Termux:Widget choose Win11 and place it on the home screen. When you press it, Windroid 11 will start. Alternatively, you can type ```./Win11``` in the terminal.
 
 ## If you get an error while installing
 If you no longer have access to your storage due to duplicate termux-setup-storage, try deleting the permissions on the Termux storage and then(!):
