@@ -72,7 +72,7 @@ Now, if you know you don't have Android 12+ or disabled the Phantom_Process_Kill
 
 The Win11.7z is divided into 3 parts. Therefore, do not be irritated if several larger files are downloaded.
 
-If it shows that it started successfully go in the VNC Viewer, click the + and enter :1 in the first line. Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors! Go back to termux, if not already complete. <br>
+Go in the VNC Viewer, click the + and enter :1 in the first line. Leave the second blank and tap "ok". In "picture quality" select "high" otherwise Windroid 11 will only appear in 256 colors! Go back to termux, if not already complete. <br>
 <br>
 After the completed installation go back to VNC Viewer and press "Connect".  Disable "warn me every time" then press "Ok", enter the password 123456 and confirm.
 Complete.
