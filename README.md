@@ -48,6 +48,7 @@ cd /data/data/com.termux/files/home/
 chmod +x ./Win11
 ./Win11
 ```
+
 #### To download to the SD-Card and install it on the internal Storage (Termux Home)
 
 (Installation on the SD-Card is currently not possible and the following method is not fully tested)
@@ -65,7 +66,7 @@ cd /data/data/com.termux/files/home/
 chmod +x ./Win11
 ./Win11
 ```
-
+#### This is how it continues
 
 Then press [Enter] (in your keyboard) and if you see:
 ```
