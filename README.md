@@ -87,7 +87,10 @@ The default action is to keep your current version.
 ```
 Press N and Enter every times.
 
-Now, if you know you don't have Android 12+ or disabled the Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process and therefore you need to disable the Phantom_Process_Killer with [ADB](https://github.com/HardcodedCat/termux-monet#Phantom-Process-Killer). Maybe you can use [LADB](https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/LADB_1.9.1.apk) for this without PC.
+Now, if you know you don't have Android 12+ or disabled the Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process and therefore you need to disable the Phantom_Process_Killer with [ADB](https://github.com/HardcodedCat/termux-monet#Phantom-Process-Killer) or. Maybe you can use [LADB](https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/LADB_1.9.1.apk) for this without PC. If you have [Root] you can open with a right swipe in Termux a new session and copy/paste following command:
+```
+su -c "settings put global settings_enable_monitor_phantom_procs false"
+```
 
 The Win11.7z is divided into 3 parts. Therefore, do not be irritated if several larger files are downloaded.
 
