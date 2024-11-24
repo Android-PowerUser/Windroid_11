@@ -87,7 +87,11 @@ The default action is to keep your current version.
 ```
 Press N and Enter every times.
 
-Now, if you know you don't have Android 12+ or disabled the Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process and therefore you need to disable the Phantom_Process_Killer with [ADB](https://github.com/HardcodedCat/termux-monet#Phantom-Process-Killer) or. Maybe you can use [LADB](https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/LADB_1.9.1.apk) for this without PC. If you have [Root] you can open with a right swipe in Termux a new session and copy/paste following command:
+Now, if you know you don't have Android 12+ or disabled the Phantom_Process_Killer you can go to the VNC Viewer app during the installation. Otherwise, wait in Termux(!) until Termux has completed the process and therefore you need to disable the Phantom_Process_Killer with [ADB](https://github.com/HardcodedCat/termux-monet#Phantom-Process-Killer) or. Maybe you can use [LADB](https://github.com/Android-PowerUser/Windroid_11/releases/download/2023.07.29/LADB_1.9.1.apk) or alternatives for this without PC. When the ADB connection is running copy/paste the following
+```
+adb shell "/system/bin/device_config put activity_manager max_phantom_processes 2147483647"
+```
+If you have [Root] you can open with a right swipe in Termux a new session and copy/paste following command:
 ```
 su -c "settings put global settings_enable_monitor_phantom_procs false"
 ```
