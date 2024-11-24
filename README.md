@@ -50,8 +50,7 @@ chmod +x ./Win11
 ```
 #### To download to the SD-Card and install it on the internal Storage (Termux Home)
 
-(Installtion on the SD-Card is currently not possible)
-(The following method is not fully tested)
+(Installation on the SD-Card is currently not possible and the following method is not fully tested)
 
 Open Termux and copy/paste the following code:
 ```
