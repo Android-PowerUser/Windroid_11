@@ -91,6 +91,7 @@ Now, if you know you don't have Android 12+ or disabled the Phantom_Process_Kill
 ```
 su -c "settings put global settings_enable_monitor_phantom_procs false"
 ```
+You have to do this every time you restart Android.
 
 The Win11.7z is divided into 3 parts. Therefore, do not be irritated if several larger files are downloaded.
 
