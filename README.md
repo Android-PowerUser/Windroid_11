@@ -22,6 +22,8 @@ Min. 17 GB storage short term and installed 13 GB.
 
 ARM Processor 64-bit (probably max. 6 year old low budget device)
 
+Stable internet connection
+
 Android 7+ (more reports necessary)
 
 ## Easy install
