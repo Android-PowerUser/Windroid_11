@@ -216,9 +216,11 @@ python3 /path/to/file
 
 If you have any questions you can ask the [Windroid 11 chatbot](https://poe.com/Windroid_11) fed the documentation of this repo based on Claude 3.5. Or you can use the pre-installed [Shell-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at [OpenAI](https://platform.openai.com/account/api-keys).
 
-#### Devs
+#### Contribute
 
-This [group](https://t.me/Windroid_11) is for Windroid 11 developers. Necessary further developments are discussed in the group. For example the ones that are still missing: VirGL, Proton 8.0, Winetricks and faster root version
+This [group](https://t.me/Windroid_11) is for Windroid 11 developers. Necessary further developments are discussed in the group. For example the ones that are still missing: VirGL, Proton 8.0, Winetricks and faster root version.
+
+If you want to contribute, create a file that can be inserted directly into Windroid 11 with the path specified or replace an existing file.
 
 #### How does it work
 
