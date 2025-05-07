@@ -238,4 +238,4 @@ In this OS @ptitSeb's Box64/Box86 was used.
 Icons by @yeyushengfan258
 
 ##### Other
-[Screen Operator](https://github.com/Android-PowerUser/ScreenOperator/) operate the Screen with AI.
+[Screen Operator](https://github.com/Android-PowerUser/ScreenOperator/) is an Android app that automatically operate the Screen with AI.
