@@ -237,3 +237,5 @@ Not related with Microsoft or Valve Corporation!
 In this OS @ptitSeb's Box64/Box86 was used.
 Icons by @yeyushengfan258
 
+##### Other
+[Screen Operator](https://github.com/Android-PowerUser/ScreenOperator/) operate the Screen with AI.
