@@ -229,7 +229,7 @@ This OS runs on the Linux kernel that is preinstalled on every Androidsystem and
 Windroid 11 runs via change root (chroot). So applications always find the right directory even though they can't actually access the root directory. Also, many applications need root privileges to install applications, for example, because they don't know that they don't actually need root privileges here.  So the user ID 0 must also be simulated. Which leads the applications to believe they have root access. Although they don't need root privileges anyway. But they do their job. This requires process trace, which is a kernel function found in almost all Unix-like operating systems. Unfortunately this is very slow, but without a UID you can't even get the graphical interface to work. In addition, with PRoot process trace is always activated anyway, whether it is needed or not. These and more features are all available in PRoot.  The P stands for process trace and the rest for chroot. In order for Windroid 11 to start, a file containing the PRoot options is executed. It is located in the Termux home directory (/data/data/com.termux/files/home/Win11 and /data/data/com.termux/files/home/.shortcuts/Win11). You can edit the files with a text editor in such a way that VNC Viewer is opened immediately when the widget is started. How to do this is in the files. Note that VNC Viewer may start earlier than VNC Server has established the connection. Then try to connect to the desktop again in VNC Viewer.
 
 #### You can [fund](https://paypal.me/MatthiasExner98?country.x=DE&locale.x=de_DE) the Windroid 11 project.
-Those who [donate](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4C5837267N8919331MTCOQWA) at least 5 USD will be listed as a backer below.
+[PayPal donation](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4C5837267N8919331MTCOQWA)
 
 ##### declaration
 Don't expect miracles, because Windroid 11 is in the early stages of development.
@@ -238,4 +238,4 @@ In this OS @ptitSeb's Box64/Box86 was used.
 Icons by @yeyushengfan258
 
 ##### Other
-[Screen Operator](https://github.com/Android-PowerUser/ScreenOperator/) is an Android app that automatically operate the Screen with AI.
+[Screen Operator](https://github.com/Android-PowerUser/Screen_Operator/) is an Android app that automatically operate the Screen with AI.
