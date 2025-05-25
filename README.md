@@ -238,4 +238,4 @@ In this OS @ptitSeb's Box64/Box86 was used.
 Icons by @yeyushengfan258
 
 ##### Other
-[Screen Operator](https://github.com/Android-PowerUser/Screen_Operator/) is an Android app that automatically operate the Screen with AI. Due to a bug in the Google crawler that occurs when a repo is switched from private to public, you cannot find Screen Operator via Google search, but via Bing and Yahoo.
+[Screen Operator](https://github.com/Android-PowerUser/Screen_Operator/) is an Android app that automatically operate the Screen with AI. Unfortunately, the Google crawler seems to no longer index many new repos. This one and the workaround produced repos are among them, but you can still find this via Bing, Ecosia and Yahoo.
