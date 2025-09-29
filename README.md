@@ -212,9 +212,11 @@ find the python file and run it:
 ```
 python3 /path/to/file
 ```
-#### Questions
+#### Questions and problems
 
 If you have any questions you can ask the [Windroid 11 chatbot](https://poe.com/Windroid_11) fed the documentation of this repo based on Claude 3.7. Or you can use the pre-installed [Shell-GPT](https://github.com/TheR1D/shell_gpt) with which you can have your questions answered directly in Termux by ChatGPT or GPT-4. For this you first have to enter an OpenAI key without spaces directly after the = sign in Windroid 11 in the file /ubuntu-fs/root/.config/shell_gpt/.sgptrc.  You can get that at [OpenAI](https://platform.openai.com/account/api-keys).
+
+You can have problems solved automatically with Open Manus. Open Manus is an AI agent for terminals that automatically recognizes the content and makes inputs until the task is completed. As of approximately April 2025, this only works in Linux distributions like Windroid 11 (not tested), unfortunately not directly in Termux. If the installation is too complicated for you, you can try [Screen Operator.apk](https://github.com/Android-PowerUser/Screen_Operator/). It is trained to operate Termux and can also make inputs and solve problems independently.
 
 #### Contribute
 
